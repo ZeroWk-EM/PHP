@@ -1,3 +1,8 @@
 html {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.to_index {
+    text-align: right;
+    font-weight: bold;
+}

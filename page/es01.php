@@ -9,12 +9,14 @@
 </head>
 <body>
     <hr>
-<h4>ES : Scrivi un programma in php che stampi "Hello WORLD"</h4>
+    <p class="to_index"><a href="../">Torna all'index</a></p>
+    <hr>
+<h4>ES : Scrivi un programma in php che stampi "Hello, World!"</h4>
 <hr>
 </body>
 </html>
 
 
 <?php
-echo "Ciao, MELO"
+echo "Hello, World!";
 ?>
