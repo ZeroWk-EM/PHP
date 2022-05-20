@@ -48,3 +48,11 @@ html {
     text-decoration: none;
     font-weight: bold;
 }
+
+#foot {
+    text-align: center;
+}
+
+#foot a {
+    text-decoration: none;
+}

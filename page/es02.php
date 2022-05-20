@@ -22,51 +22,51 @@
         <li>Il valore [10] e [7] e dire se sono presenti all'interno dell'array oppure no</li>
     </ul>
     <hr>
+    <?php
+    //Dichiarazione array
+    $array = array(2, 5, 7, 9, 11);
+    $SUM = 0;
+    $MAX = $array[0];
+    $MIN = $array[0];
+
+    $found = 10;
+    $found2 = 7;
+
+    for ($i = 0; $i < count($array); $i++) {
+        //SOMMA
+        $SUM = $SUM + $array[$i];
+        //MAX
+        if ($array[$i] > $MAX) {
+            $MAX = $array[$i];
+        } //MIN 
+        else if ($array[$i] < $MIN) {
+            $MIN = $array[$i];
+        }
+    }
+
+    //MEDIA
+    $MEDIA = $SUM / count($array);
+    echo "La somma degli elelenti dell'array è [" . $SUM . "]";
+    echo "<br>";
+    echo "Il valore massimo dell'array è [" . $MAX . "]";
+    echo "<br>";
+    echo "Il valore minimo dell'array è [" . $MIN . "]";
+    echo "<br>";
+    echo "La media dei valori dell'array è [" . $MEDIA . "]";
+    echo "<br>";
+
+    for ($i = 0; $i < count($array); $i++) {
+        if ($array[$i] == $found) {
+            echo "TROVATO il numero [" . $found . "] è presente nell'array su l'indice [".$i."]";
+            echo " e mi dispiace ma il numero [" . $found2 . "] non c'è";
+        } else if ($array[$i] == $found2) {
+            echo "Trovato il numero [" . $found2 . "] è presente nell'array su l'indice [".$i."]";
+            echo " e mi dispiace ma il numero [" . $found . "] non c'è";
+        }
+    }
+    echo "<hr>";
+    ?>
+    <P style="text-align:right;">FINITO 20/05/2022 || 13:33</P>
 </body>
 
 </html>
-
-
-<?php
-//Dichiarazione array
-$array = array(2, 5, 7, 9, 11);
-$SUM=0;
-$MAX=$array[0];
-$MIN=$array[0];
-
-$found=10;
-$found2=7;
-
-for($i=0;$i<count($array);$i++){
-    //SOMMA
-    $SUM=$SUM+$array[$i];
-    //MAX
-    if ($array[$i] > $MAX) {
-        $MAX = $array[$i];
-    }//MIN 
-    else if ($array[$i] < $MIN) {
-        $MIN = $array[$i];
-    }
-}
-
-//MEDIA
-$MEDIA = $SUM / count($array);
-echo "La somma degli elelenti dell'array è [".$SUM."]";
-echo "<br>";
-echo "Il valore massimo dell'array è [" . $MAX . "]";
-echo "<br>";
-echo "Il valore minimo dell'array è [" . $MIN . "]";
-echo "<br>";
-echo "La media dei valori dell'array è [" . $MEDIA . "]";
-echo "<br>";
-
-for ($i = 0; $i < count($array); $i++) {
-    if ($array[$i] == $found) {
-        echo "TROVATO il numero " . $found . "è presente nell'array";
-    } else if ($array[$i] == $found2) {
-        echo "Trovato il numero [" . $found2 . "] è presente nell'array";
-    } 
-}
-echo "<hr>";
-echo "FINITO 20/05/2022 13:33"
-?>
