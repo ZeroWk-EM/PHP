@@ -7,6 +7,12 @@ html {
     font-weight: bold;
 }
 
+.utilites {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
 .utilites ul {
     padding-left: 10px;
 }
