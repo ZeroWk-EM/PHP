@@ -6,3 +6,36 @@ html {
     text-align: right;
     font-weight: bold;
 }
+
+.block {
+    background-color: #003e1b;
+    color: white;
+    border-radius: 10px;
+}
+
+.es {
+    padding: 20px;
+}
+
+.elaboration {
+    background-color: #3e0012;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.elaboration p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    background-color: #001f3e;
+    color: white;
+    border-radius: 10px;
+}
+
+.code {
+    padding: 20px;
+}
