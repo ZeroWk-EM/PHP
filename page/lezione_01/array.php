@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ES || ARRAY</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../../asset/php.ico">
+
 </head>
 
 <body>
     <hr>
-    <p class="to_index"><a href="../">Torna all'index</a></p>
+    <p class="to_index"><a href="../../index.html">Torna all'index</a></p>
     <hr>
     <div class="block">
         <div class="es">
