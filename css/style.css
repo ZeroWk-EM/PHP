@@ -2,6 +2,10 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+pre {
+    padding: 0px;
+}
+
 .copyright {
     text-align: right;
     font-weight: bold;
