@@ -38,7 +38,7 @@
     </div>
 
     <div class="phpcode">
-        <pre>echo "Hello, World!";</pre>
+        <pre>       echo "Hello, World!";</pre>
     </div>
     <hr>
     <p style="text-align:right;">FINITO 20/05/2022 || 13:00</p>
