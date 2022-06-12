@@ -69,7 +69,7 @@
         </div>
     </div>
     <hr>
-    <p style="text-align:right;">FINITO XX/XX/20XX || XX:XX</p>
+    <p style="text-align:right;">FINITO 22/05/2022 || 14:00</p>
 </body>
 
 </html>
