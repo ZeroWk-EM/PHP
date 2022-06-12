@@ -63,10 +63,50 @@
             }
             echo "<br>";
             echo "<hr>";
-            echo "MAX [".$max."]";
-            echo "MIN [".$min."]";
+            echo "MAX [" . $max . "]";
+            echo "MIN [" . $min . "]";
             ?>
         </div>
+    </div>
+    <div class="elaboration">
+        <p style="text-align:center">CODICE PHP</p>
+    </div>
+
+    <div class="phpcode">
+        <pre>            $num1 = 65;
+            $num2 = 32;
+            $num3 = 100;
+
+            $max = 0;
+            $min = 0;
+            echo "NUM 1 [" . $num1 . "]";
+            echo " | NUM 2 [" . $num2 . "]";
+            echo " | NUM 3 [" . $num3 . "]";
+
+            echo "< br>";
+            echo "< hr>";
+            if ($num1 > $num2 && $num1 > $num3) {
+                echo "Il numero [" . $num1 . "] è piu grande [" . $num2 . "] e [" . $num3 . "]";
+                $max = $num1;
+            } else {
+                $min = $num1;
+            }
+            if ($num2 > $num1 && $num2 > $num3) {
+                echo "Il numero [" . $num2 . "] è piu grande [" . $num1 . "] e [" . $num3 . "]";
+                $max = $num2;
+            } else {
+                $min = $num2;
+            }
+            if ($num3 > $num1 && $num3 > $num2) {
+                echo "Il numero [" . $num3 . "] è piu grande [" . $num1 . "] e [" . $num2 . "]";
+                $max = $num3;
+            } else {
+                $min = $num3;
+            }
+            echo "< br>";
+            echo "< hr>";
+            echo "MAX [" . $max . "]";
+            echo "MIN [" . $min . "]";</pre>
     </div>
     <hr>
     <p style="text-align:right;">FINITO 22/05/2022 || 14:00</p>
