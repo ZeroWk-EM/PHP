@@ -49,3 +49,7 @@ html {
     color: white;
     padding: 10px;
 }
+
+.block ul li {
+    list-style-type: '- ';
+}
