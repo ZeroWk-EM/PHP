@@ -61,7 +61,6 @@
     </div>
     <div class="container">
         <div class="code">
-            <?php
 <?php
 include "database.php";
 
@@ -207,8 +206,6 @@ function main(){
 }
 
 main();
-
-?>
             ?>
         </div>
     </div>
