@@ -1,0 +1,104 @@
+@font-face {
+    font-family: nunito;
+    src: url(../font/nunito.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #121212;
+    align-items: center;
+    min-height: 100vh;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-family: nunito;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid black;
+    width: 70%;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+a {
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-family: nunito;
+}
+
+input[type="submit"] {
+    border-radius: 5px;
+    background-color: darkgoldenrod;
+    color: white;
+    font-family: nunito;
+    border: 0px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    color: black;
+    flex-direction: column;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+    flex-direction: column;
+}
+
+.output_container {
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.redbtn {
+    background-color: darkred;
+}
+
+.purplebtn {
+    background-color: purple;
+}
+
+.btn_container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.submit_form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.out_text {
+    font-family: nunito;
+    text-align: center;
+}
+
+.sub_form {
+    border: 1px solid black;
+}

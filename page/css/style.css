@@ -1,5 +1,10 @@
+@font-face {
+    font-family: nunito;
+    src: url(../font/nunito.ttf);
+}
+
 html {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .to_index {
@@ -51,5 +56,5 @@ html {
 }
 
 .block ul li {
-    list-style-type: '- ';
+    list-style-type: "- ";
 }
