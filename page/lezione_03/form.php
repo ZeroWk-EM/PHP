@@ -40,7 +40,7 @@
                         echo "<a class= 'redbtn' href='form.php?numero_persone=$value'>RIMUOVI</a>";
                     }
                     $azzera = $numero_persone - $numero_persone;
-                    if ($numero_persone >= 3) {
+                    if ($numero_persone >= 2) {
                         echo "<a class= 'purplebtn' href='form.php?numero_persone=$azzera'>RIMUOVI TUTTO</a>";
                     }
                     ?>
